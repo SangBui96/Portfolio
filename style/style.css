@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* navbar style */
+.navbar{
+    background-color: crimson;
+    width: 100%;
+    position: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.max-width{
+    max-width: 1300px;
+    
+}
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu a{
+    color: #fff;
+
+}
