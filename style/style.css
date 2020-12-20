@@ -12,10 +12,17 @@
     width: 100%;
     position: fixed;
     font-family: 'Ubuntu', sans-serif;
+    padding: 15px 0;
 }
 .max-width{
     max-width: 1300px;
-    
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .navbar .logo a{
     font-size: 35px;
@@ -28,5 +35,7 @@
 }
 .navbar .menu a{
     color: #fff;
-
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
 }
